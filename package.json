@@ -1,0 +1,19 @@
+{
+  "name": "support-agent",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/main.ts",
+    "eval": "tsx evals/reply.eval.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.137.0",
+    "@telemetry-dev/anthropic": "^0.2.4",
+    "@telemetry-dev/sdk": "^0.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}
